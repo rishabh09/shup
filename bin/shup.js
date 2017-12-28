@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const path = require('path')
 const argv = require('yargs-parser')(process.argv.slice(2))
 const ghPages = require('../lib/gh-pages')
 

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "precommit": "yarn eslint",
-    "prepush": "yarn eslintt",
+    "prepush": "yarn eslint",
     "eslint": "eslint lib bin",
     "test": "jest"
   },
