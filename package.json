@@ -1,0 +1,35 @@
+{
+  "name": "shup",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "shup": "./bin/shup.js"
+  },
+  "scripts": {
+    "precommit": "yarn eslint",
+    "prepush": "yarn eslintt",
+    "eslint": "eslint lib bin",
+    "test": "jest"
+  },
+  "author": "Rishabh Mishra",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "0.14.3",
+    "jest": "^22.0.4"
+  },
+  "dependencies": {
+    "shelljs": "0.7.8",
+    "yargs-parser": "^8.1.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
